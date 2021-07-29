@@ -41,3 +41,20 @@ export NVM_DIR="$HOME/.nvm"
 nvm install 16.4.1
 nvm use 16.4.1
 ```
+
+## FastAPI
+
+```bash
+pip install fastapi
+pip install uvicorn[standard]
+pip install python-multipart
+pip install python-jose[cryptography]
+pip install passlib[bcrypt]
+pip install async-exit-stack async-generator
+uvicorn main:app --reload
+```
+
+## JWT token generation
+
+`openssl rand -hex 32`
+35bffefc6ded1cd16a7b0b873a91bf9d886b8d37bfc202949908115f1828be33
