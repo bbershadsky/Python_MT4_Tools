@@ -52,6 +52,7 @@ pip install python-jose[cryptography]
 pip install passlib[bcrypt]
 pip install async-exit-stack async-generator
 uvicorn main:app --reload
+uvicorn sql_app.main:app --reload --port 8008
 ```
 
 ## JWT token generation
